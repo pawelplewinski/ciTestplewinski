@@ -13,3 +13,8 @@ deploy:
   acl: 'public-read'
   on:
     repo: pawelplewinski/ciTestplewinski
+
+deploy:
+    provider: npm
+    on:
+        tags: true
